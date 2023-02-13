@@ -1,2 +1,18 @@
-# Network-Port-Scanner-With-Service-Names
-A simple program that scans a network for open ports and returns the port numbers and corresponding service names. Given the IP address of a target host, the program will scan a range of ports and return the names of any open ports, in addition to their port numbers.
+# Network Port Scanner with Service Names
+
+This program is an updated version of a basic network port scanner. In addition to returning the port numbers of any open ports, this version also returns the corresponding service names for each open port.
+
+## Requirements
+
+Python 3.x
+Unix-based syste
+
+## Usage
+
+To use this program, you must provide the IP address of the target host you want to scan, and the range of ports you want to scan.
+
+The program will return a list of tuples, where each tuple contains the port number and the corresponding service name for any open ports.
+
+## Note
+
+This program is designed to run on Unix-based systems and uses the socket and getservbyport modules to retrieve the service names for open ports. If you are using a different operating system, you may need to modify the code to work on your system.
