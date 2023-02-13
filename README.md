@@ -4,8 +4,8 @@ This program is an updated version of a basic network port scanner. In addition 
 
 ## Requirements
 
-Python 3.x
-Unix-based syste
+Python 3.x <br>
+Unix-based system
 
 ## Usage
 
